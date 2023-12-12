@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  react-app:
+    build:
+      context: ./app
+    ports:
+      - "3000:3000"
+    networks:
+      - goals-net
+    depends_on:
+      - flask-api
+
+  flask-api:
+    build:
+      context: ./api
+    ports:
+      - "5000:5000"
+    networks:
+      - goals-net
+
+networks:
+  goals-net:
+    driver: bridge

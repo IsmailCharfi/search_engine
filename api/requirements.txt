@@ -1,0 +1,7 @@
+flask
+flask_cors
+Flask-SQLAlchemy
+nltk
+pillow
+pytesseract
+boolean_parser
