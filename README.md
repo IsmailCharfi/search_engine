@@ -53,3 +53,7 @@ Users can upload files for easy searching in a Simple Search Engine. The system 
 Users upload documents, which are automatically organized and searchable. The system uses a Simple Search Engine and Index Database, with an optional feature for extracting text from images. Users can easily find and view their documents through a user-friendly interface.
 
 ## Demo
+
+
+https://github.com/IsmailCharfi/search_engine/assets/73357703/486ab52f-a0aa-4937-9494-e857a8600122
+
