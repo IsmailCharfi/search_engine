@@ -73,7 +73,11 @@ def transform(arg):
 
 
 def equal_(arg1, arg2, index):
-    return index.get(arg1).get(arg2, [])
+    if arg1 == "content":
+        list =  index.get(arg1).get(arg2, [])
+        return [item['path'] for item in list]
+    else:
+        return index.get(arg1).get(arg2, [])
 
 
 def ne_(arg1, arg2, index):
